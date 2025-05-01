@@ -118,3 +118,11 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+@media only screen and (max-width:768px){
+    section.gallery .content {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;    
+    }
+}
