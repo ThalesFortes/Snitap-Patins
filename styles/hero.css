@@ -248,7 +248,7 @@ section.hero{
   
     /* patins */
     & > div:nth-child(2) {
-      height: 50vh; 
+      height: 30vh; 
     }
   }
 }
