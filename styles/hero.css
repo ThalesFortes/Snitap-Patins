@@ -242,7 +242,7 @@ section.hero{
   
     /* buttons */
     & .buttons {
-      margin-bottom: 3rem;
+      margin-bottom: 0.7rem;
       flex-direction: column-reverse;
     }
   

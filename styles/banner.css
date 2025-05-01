@@ -40,3 +40,12 @@
       transform: translateX(-132px);
     }
   }
+
+
+@media only screen and (max-width:768px){
+  .banner {
+    .bg-gradient-animate {
+      animation: bg-gradient 5s ease infinite;
+    }
+  }
+}
