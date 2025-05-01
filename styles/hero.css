@@ -224,3 +224,31 @@ section.hero{
     transform: translateY(-15rem);
   }
 }
+
+@media only screen and (max-width:768px){
+  section.hero {
+    display:flex;
+    flex-direction: column-reverse;
+    gap: 1px;
+    padding: 1rem 2rem;
+  
+    & h1 {
+      padding-inline: 1rem;
+    }
+
+    & h1 div {
+      height: 2.5rem;
+    }
+  
+    /* buttons */
+    & .buttons {
+      margin-bottom: 3rem;
+      flex-direction: column-reverse;
+    }
+  
+    /* patins */
+    & > div:nth-child(2) {
+      height: 20rem; 
+    }
+  }
+}
